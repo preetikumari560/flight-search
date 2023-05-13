@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Flight Search</title>
+  </head>
+  <body>
+    <h1>Flight Search</h1>
+    <form method="get" action="/flight-search">
+      <div>
+      <label for="origin">Origin:</label>
+      <input type="text" id="origin" name="originCode"><br>
+
+      <label for="destination">Destination:</label>
+      <input type="text" id="destination" name="destinationCode"><br>
+
+      <label for="date">Date of Departure:</label>
+      <input type="date" id="date" name="dateOfDeparture"><br>
+    </div>
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+    
+  </body>
+</html>
+
