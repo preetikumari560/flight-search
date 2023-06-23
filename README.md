@@ -1,4 +1,4 @@
-# flight-search
+# flight-search.
 
 ![Uploading image.png…]()
 
